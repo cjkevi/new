@@ -37,6 +37,10 @@ public class ExecutingAllClassPOM extends BaseClassSyntax {
 	CancelBooking cancel = new CancelBooking();
 	cancel.canacelbooking();
 	
+	
+	driver.close();
+	
 	}
+
 
 }
