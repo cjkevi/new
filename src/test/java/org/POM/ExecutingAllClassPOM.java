@@ -33,6 +33,8 @@ public class ExecutingAllClassPOM extends BaseClassSyntax {
 	
 	BookAHotel book = new BookAHotel();
 	book.bookHotel("kevin", "cj", "chennai", "1313345678909876", "VISA", "May", "2022", "1222");
+	 
+	driver.close();
 	
 	CancelBooking cancel = new CancelBooking();
 	cancel.canacelbooking();
